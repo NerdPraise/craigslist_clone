@@ -39,5 +39,6 @@ def new_search(request):
     frontend_stuff = {
         "search": search,
         "final_postings": final_postings,
+        "extra": "extra"
     }
     return render(request, "my_app/new_search.html", frontend_stuff)
